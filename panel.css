@@ -1,0 +1,13 @@
+@import 'tailwindcss';
+
+@layer base {
+  body {
+    @apply overflow-hidden overscroll-none text-slate-950 antialiased;
+  }
+
+  h1,
+  h2,
+  dt {
+    @apply tracking-tight;
+  }
+}
